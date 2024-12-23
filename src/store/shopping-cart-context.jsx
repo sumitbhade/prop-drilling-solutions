@@ -4,4 +4,5 @@ export const CartContext = createContext({
   // For autocompletion purpose (when destructuring )
   items: [],
   addItemToCart: () => {},
+  updateItemQuantity: () => {},
 });
